@@ -21,10 +21,10 @@ air_timer = 0
 true_scroll = [0,0]
 
 # ITEMS 
-grass_img = pygame.image.load('Tiles/tile_0000.png')
-dirt_img = pygame.image.load('Tiles/tile_0004.png')
+grass_img = pygame.image.load('tile_0000.png')
+dirt_img = pygame.image.load('tile_0004.png')
 
-player_img = pygame.image.load('Characters/character_0000.png').convert()
+player_img = pygame.image.load('character_0000.png').convert()
 player_img = pygame.transform.scale(player_img, (20, 20))
 # --------------------------------------------------
 
